@@ -6,6 +6,7 @@
 	<body>
 		<h2>THis</h2>
 		<?php 
+			$speed = 2;
 			$host = "localhost";
 			$user = "root";
 			$pass = file_get_contents(".db-password");
